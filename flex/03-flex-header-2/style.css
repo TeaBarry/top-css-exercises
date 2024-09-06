@@ -18,6 +18,10 @@ body {
   padding: 8px;
 }
 
+ul {
+  display: flex;
+  gap: 16px;
+}
 
 .nav-right {
   margin-left: auto;
