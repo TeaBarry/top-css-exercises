@@ -10,21 +10,25 @@ body {
 
 .header {
   display: flex;
-  align-items: center;
+  justify-content: space-between; 
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  gap: 16px;
   padding: 8px;
 }
 
 ul {
   display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
   gap: 16px;
 }
 
-.nav-right {
-  margin-left: auto;
+.nav-left, .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .profile-image {
@@ -56,6 +60,3 @@ a {
   color: rebeccapurple;
 }
 
-ul {
-  list-style-type: none;
-}
